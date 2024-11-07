@@ -18,6 +18,7 @@ The database migration involves several key steps:
 1. **Normalize XLSX Data:**
 
 Normalized the data using Excel into 3NF.
+
 <b><u>The original table</u></b>
 
 ![Original table](<Images/Screenshot (278).png>)
@@ -83,7 +84,8 @@ FROM customer
 
 ![sql query](<Images/Screenshot (285).png>)
 
-**Conclusion**
+**Conclusion:**
+
 The migration from Excel to SQL resulted in improved data management, scalability, and performance for OneStop store. By automating the process with Python, the migration was efficient and error-free, ensuring data integrity and accuracy. Post-migration analysis showed significant improvements in query performance and overall data handling capabilities.
 
 **LIBRARIES AND VERSION**
